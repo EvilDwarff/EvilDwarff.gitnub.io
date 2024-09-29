@@ -1,0 +1,119 @@
+
+
+.btn-primary, .btn-secondary{
+    color: white !important;
+}
+.btn-outline-primary:hover{
+    color: white !important;
+}
+
+
+
+
+// Базовые отступы
+$spacer: 1.5rem;
+// Скругление углов
+$border-radius: .55rem;
+
+// Тень
+$enable-shadows: true;
+$box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.15);
+
+// Точки останова
+$breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1440px,
+);
+// Размеры контейнера
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1440px,
+);
+
+/* === Import Bootstrap functions and variables and mixins */
+@import "../bootstrap/scss/functions";
+@import "../bootstrap/scss/variables";
+@import "../bootstrap/scss/mixins";
+/*--------------------------------------------------------------------*/
+/* Change theme-colors */
+
+
+// Дополнительные цвета
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$brown-color: #602f04; // темно-коричневый
+$accent-color:  #eec99e; // оранжево-коричневый
+// Цвета
+$theme-colors: (
+                light:#f4e8d5, 
+                primary: #d17811,
+                secondary:  #e0ad4f,
+                success: #1e6111,
+                info:  #64c3d2,
+                warning: #f5e74a,
+                danger: #820410
+                );
+        
+
+
+
+
+
+// Размер подписей к изображениям
+$figcaption-font-size: 1.2rem;
+
+// Рамка изображений
+$thumbnail-padding: .55rem;
+$thumbnail-bg: $gray-200;
+$thumbnail-border-color: $gray-500;
+$thumbnail-border-radius: 0;
+
+$body-bg: $accent-color;
+$body-color: $brown-color;
+// Стили заголовков
+$heading-font-family: 'Merriweather', serif;
+$heading-font-weight: 500;
+$heading-line-height: 1.2;
+
+// Стили ведущего текста
+$lead-font-size: 1.6rem;
+$lead-font-weight: 300;
+
+// Стили обычного текста
+$text-font-size: 1rem;
+$text-line-height: 1.6;
+
+// Стили ссылок
+$link-color: $info;
+$link-hover-color: darken($primary, 10%);
+
+
+// Стили элементов форм
+.form-control{
+  background-color: $gray-300 !important;
+}
+
+
+// Стили карточек
+$card-header-bg: $gray-500;
+$card-body-bg: $white;
+$card-border-color: $gray-300;
+$card-border-width: 3px;
+$card-border-radius: $border-radius;
+
+/*--------------------------------------------------------------------*/
+/* === Bootsrap Main SCSS === */
+@import "../bootstrap/scss/bootstrap";
+/*--------------------------------------------------------------------*/

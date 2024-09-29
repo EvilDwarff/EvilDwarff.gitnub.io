@@ -5,194 +5,185 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <script defer src="js/fontawesome-all.min.js"></script>
+    <link rel="stylesheet" href="./scss/style.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <script defer src="./bootstrap/js/fontawesome-all.min.js"></script>
 </head>
 <body>
-         <!--Меню-->
-         <nav class="navbar navbar-expand-lg bg-light fixed-top mb-4">
-          <div class="container d-flex">
-            <a class="navbar-brand" href="#">Small Busness</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-              aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-between" id="navbarNavDropdown">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="./index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="./services.html">Servisec</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="./about.html">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./teem.html">Teams</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link"  href="./contact.html">Contact</a>
-                </li>
-        
+ <!--Меню-->
+ <nav class="navbar navbar-expand-lg bg-light fixed-top mb-4">
+  <div class="container d-flex">
+      <a class="navbar-brand" href="#">Кофейня</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-between" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+              <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./index.html">Главная</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="./services.html">Услуги</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="./about.html">О нас</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="./teem.html">Команда</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="./contact.html">Контакты</a>
+              </li>
+          </ul>
+
+          <div class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <button class="btn btn-secondary">Сменить язык</button>
+              </a>
+              <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Русский</a></li>
+                  <li><a class="dropdown-item" href="#">Английский</a></li>
+                  <li><a class="dropdown-item" href="#">Испанский</a></li>
               </ul>
-        
-              <div class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  <button class="btn btn-secondary">Change Languege</button>
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Languege</a></li>
-                  <li><a class="dropdown-item" href="#">Languege</a></li>
-                  <li><a class="dropdown-item" href="#">Languege</a></li>
-                </ul>
-              </div>
-            </div>
           </div>
-        </nav>
+      </div>
+  </div>
+</nav>
+
+<!--Блок наши услуги-->
+<div class="container mt-4 py-3 py-sm-5 ">
+  <h1 class="text-center mb-sm-4 display-1">Наши услуги</h1>
+  <!--Карточка одной услуги-->
+  <div class="row mb-4 d-flex align-items-center flex-md-row-reverse">
+      <div class="col-12 col-md-6 mb-3 mb-md-0"><img src="./img/600x450.png" class="img-fluid" alt=""></div>
+      <div class="col-12 col-md-6 ">
+          <h5>Кофе на вынос</h5>
+          <p>Наша кофейня предлагает широкий ассортимент кофе, который вы можете взять с собой. Мы используем только свежие ингредиенты и высококачественные зерна, чтобы обеспечить лучший вкус.</p>
+          <button class="btn btn-primary">Заказать</button>
+      </div>
+  </div>
+  <hr class="mb-4">
+  <!--Карточка одной услуги-->
+  <div class="row mb-4 d-flex align-items-center ">
+      <div class="col-12 col-md-6 mb-3 mb-md-0"><img src="./img/600x450.png" class="img-fluid" alt=""></div>
+      <div class="col-12 col-md-6 ">
+          <h5>Кофейные мастер-классы</h5>
+          <p>Запишитесь на наши мастер-классы, где наши бариста поделятся секретами приготовления идеального кофе. У вас будет возможность попробовать себя в роли бариста!</p>
+          <button class="btn btn-primary">Записаться</button>
+      </div>
+  </div>
+  <hr class="mb-4">
+  <!--Карточка одной услуги-->
+  <div class="row mb-4 d-flex align-items-center flex-md-row-reverse">
+      <div class="col-12 col-md-6 mb-3 mb-md-0"><img src="./img/600x450.png" class="img-fluid" alt=""></div>
+      <div class="col-12 col-md-6 ">
+          <h5>Кофе с десертом</h5>
+          <p>Попробуйте наш кофе с разнообразными десертами, которые идеально дополнят ваш напиток. Мы предлагаем выпечку и сладости, сделанные по домашним рецептам.</p>
+          <button class="btn btn-primary">Посмотреть десерты</button>
+      </div>
+  </div>
+  <hr class="mb-4">
+  <!--Карточка одной услуги-->
+  <div class="row mb-4 d-flex align-items-center ">
+      <div class="col-12 col-md-6 mb-3 mb-md-0"><img src="./img/600x450.png" class="img-fluid" alt=""></div>
+      <div class="col-12 col-md-6 ">
+          <h5>Специальные предложения</h5>
+          <p>Следите за нашими специальными предложениями и акциями, чтобы не пропустить возможность насладиться любимыми напитками по выгодным ценам!</p>
+          <button class="btn btn-primary">Узнать больше</button>
+      </div>
+  </div>
+  <hr class="mb-4">
+</div>
 
 
-
-          <!--Блок наши услуги-->
-
-          <div class="container  my-3 my-sm-5 ">
-            <h1 class="text-center mb-sm-4 display-1">Our servisec</h1>
-            <!--Карточка одной услуги-->
-            <div class="row mb-4 d-flex align-items-center flex-md-row-reverse">
-            <div class="col-12 col-md-6 mb-3 mb-md-0"><img src="./img/600x450.png" class="img-fluid" alt=""></div>
-            <div class="col-12 col-md-6 ">
-                <h5>SErvices</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit</p>
-                <button class="btn btn-primary">wewf</button>
-            </div>
-            
-        </div>
-        <hr class="mb-4">
-         <!--Карточка одной услуги-->
-         <div class="row mb-4 d-flex align-items-center ">
-            <div class="col-12 col-md-6 mb-3 mb-md-0"><img src="./img/600x450.png" class="img-fluid" alt=""></div>
-            <div class="col-12 col-md-6 ">
-                <h5>SErvices</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit</p>
-                <button class="btn btn-primary">wewf</button>
-            </div>
-        </div>
-    
-        <hr class="mb-4">
-
-          <!--Карточка одной услуги-->
-          <div class="row mb-4 d-flex align-items-center flex-md-row-reverse">
-            <div class="col-12 col-md-6 mb-3 mb-md-0"><img src="./img/600x450.png" class="img-fluid" alt=""></div>
-            <div class="col-12 col-md-6 ">
-                <h5>SErvices</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit</p>
-                <button class="btn btn-primary">wewf</button>
-            </div>
-            
-        </div>
-        <hr class="mb-4">
-         <!--Карточка одной услуги-->
-         <div class="row mb-4 d-flex align-items-center ">
-            <div class="col-12 col-md-6 mb-3 mb-md-0"><img src="./img/600x450.png" class="img-fluid" alt=""></div>
-            <div class="col-12 col-md-6 ">
-                <h5>SErvices</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit</p>
-                <button class="btn btn-primary">wewf</button>
-            </div>
-        </div>
-            <hr class="mb-4">
-          </div>
-
-
-
-
-  <!--Подвал-->
-  <footer>
-    <div class="bg-light">
+<!--Подвал-->
+<footer>
+  <div class="bg-light">
       <div class="container">
-        <div class="pt-4 text-center text-md-start mt-5">
-          <div class="row mt-3">
-            <div class="col-12 col-md-3 col-lg-3 col-xl-3 mb-4">
-              <h6 class="text-uppercase fw-bold mb-4">
-                Products
-              </h6>
-              <p>
-                <a href="#!" class="text-reset">Angular</a>
-              </p>
-              <p>
-                <a href="#!" class="text-reset">React</a>
-              </p>
-              <p>
-                <a href="#!" class="text-reset">Vue</a>
-              </p>
-              <p>
-                <a href="#!" class="text-reset">Laravel</a>
-              </p>
-            </div>
-            <div class="col-12 col-md-3 col-lg-3 col-xl-3 mb-4">
-              <h6 class="text-uppercase fw-bold mb-4">
-                Products
-              </h6>
-              <p>
-                <a href="#!" class="text-reset">Angular</a>
-              </p>
-              <p>
-                <a href="#!" class="text-reset">React</a>
-              </p>
-              <p>
-                <a href="#!" class="text-reset">Vue</a>
-              </p>
-              <p>
-                <a href="#!" class="text-reset">Laravel</a>
-              </p>
-            </div>
-            <div class="col-12 col-md-3 col-lg-3 col-xl-3 mb-4">
-              <h6 class="text-uppercase fw-bold mb-4">
-                Products
-              </h6>
-              <p>
-                <a href="#!" class="text-reset">Angular</a>
-              </p>
-              <p>
-                <a href="#!" class="text-reset">React</a>
-              </p>
-              <p>
-                <a href="#!" class="text-reset">Vue</a>
-              </p>
-              <p>
-                <a href="#!" class="text-reset">Laravel</a>
-              </p>
-            </div>
-            <div class="col-12 col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
-              <h6 class="text-uppercase fw-bold mb-4">
-                Products
-              </h6>
-              <p>
-                <a href="#!" class="text-reset">Angular</a>
-              </p>
-              <p>
-                <a href="#!" class="text-reset">React</a>
-              </p>
-              <p>
-                <a href="#!" class="text-reset">Vue</a>
-              </p>
-              <p>
-                <a href="#!" class="text-reset">Laravel</a>
-              </p>
-            </div>
+          <div class="pt-4 text-center text-md-start mt-5">
+              <div class="row mt-3">
+                  <div class="col-12 col-md-3 col-lg-3 col-xl-3 mb-4">
+                      <h6 class="text-uppercase fw-bold mb-4">
+                          Продукты
+                      </h6>
+                      <p>
+                          <a href="#!" class="text-reset">Эспрессо</a>
+                      </p>
+                      <p>
+                          <a href="#!" class="text-reset">Капучино</a>
+                      </p>
+                      <p>
+                          <a href="#!" class="text-reset">Латте</a>
+                      </p>
+                      <p>
+                          <a href="#!" class="text-reset">Круассаны</a>
+                      </p>
+                  </div>
+                  <div class="col-12 col-md-3 col-lg-3 col-xl-3 mb-4">
+                      <h6 class="text-uppercase fw-bold mb-4">
+                          Продукты
+                      </h6>
+                      <p>
+                          <a href="#!" class="text-reset">Кофе с молоком</a>
+                      </p>
+                      <p>
+                          <a href="#!" class="text-reset">Чай</a>
+                      </p>
+                      <p>
+                          <a href="#!" class="text-reset">Соки</a>
+                      </p>
+                      <p>
+                          <a href="#!" class="text-reset">Выпечка</a>
+                      </p>
+                  </div>
+                  <div class="col-12 col-md-3 col-lg-3 col-xl-3 mb-4">
+                      <h6 class="text-uppercase fw-bold mb-4">
+                          Продукты
+                      </h6>
+                      <p>
+                          <a href="#!" class="text-reset">Сладости</a>
+                      </p>
+                      <p>
+                          <a href="#!" class="text-reset">Закуски</a>
+                      </p>
+                      <p>
+                          <a href="#!" class="text-reset">Пирожные</a>
+                      </p>
+                      <p>
+                          <a href="#!" class="text-reset">Кофе на вынос</a>
+                      </p>
+                  </div>
+                  <div class="col-12 col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                      <h6 class="text-uppercase fw-bold mb-4">
+                          Продукты
+                      </h6>
+                      <p>
+                          <a href="#!" class="text-reset">Скрипты для кофе</a>
+                      </p>
+                      <p>
+                          <a href="#!" class="text-reset">Рецепты</a>
+                      </p>
+                      <p>
+                          <a href="#!" class="text-reset">Акции</a>
+                      </p>
+                      <p>
+
+
+<a href="#!" class="text-reset">Контакты</a>
+                      </p>
+                  </div>
+              </div>
           </div>
-        </div>
       </div>
       <div class="text-center p-4">
-        © 2020 Company Name All Rights Reserved.
+          © 2020 Кофейня Все права защищены.
       </div>
-    </div>
-  </footer>
+  </div>
+</footer>
 
 
 
-
-
-  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

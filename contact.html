@@ -5,229 +5,224 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <script defer src="js/fontawesome-all.min.js"></script>
+    <link rel="stylesheet" href="./scss/style.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <script defer src="./bootstrap/js/fontawesome-all.min.js"></script>
 </head>
 <body>
-    <!--Меню-->
-    <nav class="navbar navbar-expand-lg bg-light fixed-top mb-4">
-        <div class="container d-flex">
-          <a class="navbar-brand" href="#">Small Busness</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-between" id="navbarNavDropdown">
-            <ul class="navbar-nav">
+ <!--Меню-->
+ <nav class="navbar navbar-expand-lg bg-light fixed-top mb-4">
+  <div class="container d-flex">
+      <a class="navbar-brand" href="#">Кофейня</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-between" id="navbarNavDropdown">
+          <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link"  href="./index.html">Home</a>
+                  <a class="nav-link active" aria-current="page" href="./index.html">Главная</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./services.html">Servisec</a>
+                  <a class="nav-link" href="./services.html">Услуги</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="./about.html">About</a>
+                  <a class="nav-link" aria-current="page" href="./about.html">О нас</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./teem.html">Teams</a>
+                  <a class="nav-link" href="./teem.html">Команда</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link  active" aria-current="page" href="./contact.html">Contact</a>
+                  <a class="nav-link" href="./contact.html">Контакты</a>
               </li>
-      
-            </ul>
-      
-            <div class="nav-item dropdown">
+          </ul>
+
+          <div class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                <button class="btn btn-secondary">Change Languege</button>
+                  <button class="btn btn-secondary">Сменить язык</button>
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Languege</a></li>
-                <li><a class="dropdown-item" href="#">Languege</a></li>
-                <li><a class="dropdown-item" href="#">Languege</a></li>
+                  <li><a class="dropdown-item" href="#">Русский</a></li>
+                  <li><a class="dropdown-item" href="#">Английский</a></li>
+                  <li><a class="dropdown-item" href="#">Испанский</a></li>
               </ul>
-            </div>
           </div>
-        </div>
-      </nav>
-
-      <!--Блок-->
-      <div class="container py-5 my-3 my-sm-5">
-        <h1 class="text-center mb-sm-4 display-1">Contact</h1>
-        <div class="row">
-           
-                <div class="col-12 col-lg-6 mb-4">
-                    <h2>Adress:</h2>
-                    <p class="fw-bold mb-0">Company name</p>
-                    <p class="mb-0">Street name</p>
-                    <p class="mb-0">Zip code and city</p>
-                    <p class="mb-0"><i class="fas fa-phone"></i><a href="#"> 123-1223-333</a></p>
-                    <p class="mb-0"><i class="fas fa-envelope"></i><a href="#"> mail.ru</a></p>
-                </div>
-                <div class="col-12 col-lg-6 mb-4">
-                    <h2>Opening hours:</h2>
-                    <div class="mb-0 d-flex justify-content-between"><span>Monday-Thursday</span> <span>10pn - 10am</span></div>
-                    <div class="mb-0 d-flex justify-content-between"><span>Friday-Satuday</span> <span>7pn - 6am</span></div>
-                    <div class="mb-0 d-flex justify-content-between"><span>Satuday</span> <span>5pn - 7am</span></div>
-                </div>
-            </div>
-
       </div>
+  </div>
+</nav>
 
 
-      <div class="container mt-4">
-        <div class="row">
-            <div class="col-12 col-lg-6">
-                <h2>Send us message</h2>
-                <form>
-                    
-                    <div class="row">
-                      <div class="col-12 col-md-6 mt-4">
-                        <label for="Name">Name</label>
+<!--Блок-->
+<div class="container py-5 my-3 my-sm-5">
+    <h1 class="text-center mb-sm-4 display-1">Контакты</h1>
+    <div class="row">
+        <div class="col-12 col-lg-6 mb-4">
+            <h2>Адрес:</h2>
+            <p class="fw-bold mb-0">Кофейня "Утренний кофе"</p>
+            <p class="mb-0">Улица Кофейная, 5</p>
+            <p class="mb-0">123456 Город</p>
+            <p class="mb-0"><i class="fas fa-phone"></i><a href="#"> 123-456-789</a></p>
+            <p class="mb-0"><i class="fas fa-envelope"></i><a href="#"> info@coffeeplace.ru</a></p>
+        </div>
+        <div class="col-12 col-lg-6 mb-4">
+            <h2>Часы работы:</h2>
+            <div class="mb-0 d-flex justify-content-between"><span>Понедельник-Четверг</span> <span>8:00 - 20:00</span></div>
+            <div class="mb-0 d-flex justify-content-between"><span>Пятница-Суббота</span> <span>8:00 - 22:00</span></div>
+            <div class="mb-0 d-flex justify-content-between"><span>Воскресенье</span> <span>10:00 - 18:00</span></div>
+        </div>
+    </div>
+</div>
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-12 col-lg-6">
+            <h2>Напишите нам сообщение</h2>
+            <form>
+                <div class="row">
+                    <div class="col-12 col-md-6 mt-4">
+                        <label for="Name">Имя</label>
                         <div class="input-group">
-                        <span class="input-group-text" id="basic-addon1"><i class="fas fa-user"></i></span><input type="text" class="form-control" placeholder="Name" aria-describedby="basic-addon1">
+                            <span class="input-group-text" id="basic-addon1"><i class="fas fa-user"></i></span>
+                            <input type="text" class="form-control" placeholder="Имя" aria-describedby="basic-addon1">
+                        </div>
                     </div>
-                    </div>
-                      <div class="col-12 col-md-6 mt-4">
+                    <div class="col-12 col-md-6 mt-4">
                         <label for="email">Email</label>
                         <div class="input-group">
-                            <span class="input-group-text" id="basic-addon2"><i class="fas fa-envelope"></i></span><input type="text" class="form-control" placeholder="email" aria-describedby="basic-addon2">
+                            <span class="input-group-text" id="basic-addon2"><i class="fas fa-envelope"></i></span>
+                            <input type="text" class="form-control" placeholder="email" aria-describedby="basic-addon2">
                         </div>
-                      </div>
                     </div>
-                    <div class="row">
-                        <div class="col-12 col-md-6 mt-4">
-                        <label for="telephone">Telephone</label>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6 mt-4">
+                        <label for="telephone">Телефон</label>
                         <div class="input-group">
-                            <span class="input-group-text" id="basic-addon3"><i class="fas fa-phone"></i></span><input type="text" class="form-control" placeholder="telephone" aria-describedby="basic-addon3">
+                            <span class="input-group-text" id="basic-addon3"><i class="fas fa-phone"></i></span>
+                            <input type="text" class="form-control" placeholder="телефон" aria-describedby="basic-addon3">
                         </div>
+                    </div>
+                    <div class="col-12 col-md-6 mt-4">
+                        <label for="departament">Отдел</label>
+                        <div class="input-group">
+                            <span class="input-group-text" id="basic-addon4"><i class="fas fa-home"></i></span>
+                            <select class="form-select" aria-label="Default select example" aria-describedby="basic-addon4">
+                                <option selected>Выберите отдел</option>
+                                <option value="1">Обслуживание клиентов</option>
+                                <option value="2">Поставки</option>
+                                <option value="3">Маркетинг</option>
+                            </select>
+                            <div id="basic-addon4" class="form-text d-sm-none d-md-block">Мы никогда не поделимся вашим email с кем-либо другим.</div>
                         </div>
-                        <div class="col-12 col-md-6 mt-4">
-                            <label for="departament">Departament</label>
-                            <div class="input-group">
-                                <span class="input-group-text" id="basic-addon4"><i class="fas fa-home"></i></span>
-                                <select class="form-select" aria-label="Default select example" aria-describedby="basic-addon4">
-                                    <option selected>Open this select menu</option>
-                                    <option value="1">One</option>
-                                    <option value="2">Two</option>
-                                    <option value="3">Three</option>
-                                  </select>
-                                  <div id="basic-addon4" class="form-text d-sm-none d-md-block">We'll never share your email with anyone else.</div>
-                            </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col mt-4">
+                        <label for="message">Сообщение</label>
+                        <div class="input-group mb-4">
+                            <span class="input-group-text" id="basic-addon5"><i class="fas fa-pen"></i></span>
+                            <textarea class="form-control" placeholder="Ваше сообщение" aria-describedby="basic-addon5"></textarea>
                         </div>
-                      </div>
 
-
-                      <div class="row">
-                        <div class="col mt-4">
-                            <label for="message">Message</label>
-                            <div class="input-group mb-4">
-                                <span class="input-group-text" id="basic-addon5"><i class="fas fa-pen"></i></span>
-                                <textarea  class="form-control" placeholder="message" aria-describedby="basic-addon5"></textarea>
-                                
-                            </div>
-                            <input  type="button" class="btn btn-primary" value="Submit">
-                            <input  type="button" class="btn btn-secondary" value="Reset">
-                        </div>
-                      </div>
-                  </form>
-                 
-            </div>
+<input type="button" class="btn btn-primary" value="Отправить">
+                        <input type="button" class="btn btn-secondary" value="Сбросить">
+                    </div>
+                </div>
+            </form>
+        </div>
 
         <div class="col-12 col-lg-6 mb-4">
-            <h2>Where to find us:</h2>
-            <img src="./img/600x450.png" alt="" class="img-gluid">
+            <h2>Где нас найти:</h2>
+            <img src="./img/600x450.png" alt="Кофейня" class="img-gluid">
         </div>
+    </div>
+</div>
 
-        </div>
-      </div>
-
-
-
-  <!--Подвал-->
-  <footer>
-    <div class="bg-light">
+<!--Подвал-->
+<footer>
+  <div class="bg-light">
       <div class="container">
-        <div class="pt-4 text-center text-md-start mt-5">
-          <div class="row mt-3">
-            <div class="col-12 col-md-3 col-lg-3 col-xl-3 mb-4">
-              <h6 class="text-uppercase fw-bold mb-4">
-                Products
-              </h6>
-              <p>
-                <a href="#!" class="text-reset">Angular</a>
-              </p>
-              <p>
-                <a href="#!" class="text-reset">React</a>
-              </p>
-              <p>
-                <a href="#!" class="text-reset">Vue</a>
-              </p>
-              <p>
-                <a href="#!" class="text-reset">Laravel</a>
-              </p>
-            </div>
-            <div class="col-12 col-md-3 col-lg-3 col-xl-3 mb-4">
-              <h6 class="text-uppercase fw-bold mb-4">
-                Products
-              </h6>
-              <p>
-                <a href="#!" class="text-reset">Angular</a>
-              </p>
-              <p>
-                <a href="#!" class="text-reset">React</a>
-              </p>
-              <p>
-                <a href="#!" class="text-reset">Vue</a>
-              </p>
-              <p>
-                <a href="#!" class="text-reset">Laravel</a>
-              </p>
-            </div>
-            <div class="col-12 col-md-3 col-lg-3 col-xl-3 mb-4">
-              <h6 class="text-uppercase fw-bold mb-4">
-                Products
-              </h6>
-              <p>
-                <a href="#!" class="text-reset">Angular</a>
-              </p>
-              <p>
-                <a href="#!" class="text-reset">React</a>
-              </p>
-              <p>
-                <a href="#!" class="text-reset">Vue</a>
-              </p>
-              <p>
-                <a href="#!" class="text-reset">Laravel</a>
-              </p>
-            </div>
-            <div class="col-12 col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
-              <h6 class="text-uppercase fw-bold mb-4">
-                Products
-              </h6>
-              <p>
-                <a href="#!" class="text-reset">Angular</a>
-              </p>
-              <p>
-                <a href="#!" class="text-reset">React</a>
-              </p>
-              <p>
-                <a href="#!" class="text-reset">Vue</a>
-              </p>
-              <p>
-                <a href="#!" class="text-reset">Laravel</a>
-              </p>
-            </div>
+          <div class="pt-4 text-center text-md-start mt-5">
+              <div class="row mt-3">
+                  <div class="col-12 col-md-3 col-lg-3 col-xl-3 mb-4">
+                      <h6 class="text-uppercase fw-bold mb-4">
+                          Продукты
+                      </h6>
+                      <p>
+                          <a href="#!" class="text-reset">Эспрессо</a>
+                      </p>
+                      <p>
+                          <a href="#!" class="text-reset">Капучино</a>
+                      </p>
+                      <p>
+                          <a href="#!" class="text-reset">Латте</a>
+                      </p>
+                      <p>
+                          <a href="#!" class="text-reset">Круассаны</a>
+                      </p>
+                  </div>
+                  <div class="col-12 col-md-3 col-lg-3 col-xl-3 mb-4">
+                      <h6 class="text-uppercase fw-bold mb-4">
+                          Продукты
+                      </h6>
+                      <p>
+                          <a href="#!" class="text-reset">Кофе с молоком</a>
+                      </p>
+                      <p>
+                          <a href="#!" class="text-reset">Чай</a>
+                      </p>
+                      <p>
+                          <a href="#!" class="text-reset">Соки</a>
+                      </p>
+                      <p>
+                          <a href="#!" class="text-reset">Выпечка</a>
+                      </p>
+                  </div>
+                  <div class="col-12 col-md-3 col-lg-3 col-xl-3 mb-4">
+                      <h6 class="text-uppercase fw-bold mb-4">
+                          Продукты
+                      </h6>
+                      <p>
+                          <a href="#!" class="text-reset">Сладости</a>
+                      </p>
+                      <p>
+                          <a href="#!" class="text-reset">Закуски</a>
+                      </p>
+                      <p>
+                          <a href="#!" class="text-reset">Пирожные</a>
+                      </p>
+                      <p>
+                          <a href="#!" class="text-reset">Кофе на вынос</a>
+                      </p>
+                  </div>
+                  <div class="col-12 col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                      <h6 class="text-uppercase fw-bold mb-4">
+                          Продукты
+                      </h6>
+                      <p>
+                          <a href="#!" class="text-reset">Скрипты для кофе</a>
+                      </p>
+                      <p>
+                          <a href="#!" class="text-reset">Рецепты</a>
+                      </p>
+                      <p>
+                          <a href="#!" class="text-reset">Акции</a>
+                      </p>
+                      <p>
+
+
+<a href="#!" class="text-reset">Контакты</a>
+                      </p>
+                  </div>
+              </div>
           </div>
-        </div>
       </div>
       <div class="text-center p-4">
-        © 2020 Company Name All Rights Reserved.
+          © 2020 Кофейня Все права защищены.
       </div>
-    </div>
-  </footer>
+  </div>
+</footer>
 
-
-    <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
